@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://resor.flygprisjakt.se/" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Billiga flyg från Stockholm – reseguider | Flygprisjakt","description":"Billiga flyg från Stockholm: reseguider för Barcelona, London, Paris, Dubai och New York. Bästa bokningstider, flygbolag och priser – jämför med Flygprisjakt.","url":"https://resor.flygprisjakt.se/"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Startsida","item":"https://resor.flygprisjakt.se/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vad är Flygprisjakt?","acceptedAnswer":{"@type":"Answer","text":"Vi är en svensk flygsöktjänst som jämför priser från hundratals flygbolag och resebyråer i en enda sökning. Våra reseguider hjälper dig välja rätt tid, rätt flygbolag och rätt flygplats."}},{"@type":"Question","name":"Hur hittar jag billigast flyg?","acceptedAnswer":{"@type":"Answer","text":"Var flexibel med datum (tisdagar, onsdagar och lördagar är ofta billigast), boka 6–10 veckor i förväg för Europa-resor och jämför alla flygbolag i samma sökning."}},{"@type":"Question","name":"Är priserna på sidan aktuella?","acceptedAnswer":{"@type":"Answer","text":"Priserna i våra guider är ungefärliga exempel från lågsäsong (tur och retur). Aktuella priser för dina datum ser du i sökmotorn hos bokningspartnern."}},{"@type":"Question","name":"Vilken är den bästa tiden att boka?","acceptedAnswer":{"@type":"Answer","text":"För Europa-resor: 6–10 veckor före avresa. För långflygningar: 8–12 veckor. Lågsäsong (september–april) ger de lägsta priserna."}}]}</script>
 <link rel="icon" type="image/png" href="https://cdn.phototourl.com/free/2026-08-03-ce2b9a76-810f-4f90-83ce-36d550590c1e.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,6 +46,13 @@ a{text-decoration:none;color:inherit}
 .footer a{color:rgba(255,255,255,0.85);margin:0 12px}
 .footer a:hover{color:#22D3EE}
 @media(max-width:700px){.nav-links{display:none}}
+.faq-card{background:var(--card);border:1px solid var(--border);border-radius:16px;box-shadow:0 4px 24px rgba(15,23,42,0.08);padding:28px 32px;margin-top:36px}
+.faq-card h2{font-size:22px;font-weight:800;color:var(--navy);margin-bottom:16px}
+.faq-item{background:#F8FAFC;border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+.faq-item summary{font-weight:700;color:var(--navy);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:16px}
+.faq-item summary::after{content:'+';font-size:20px;color:var(--blue);font-weight:400}
+.faq-item[open] summary::after{content:'−'}
+.faq-item p{margin-top:10px;color:var(--muted);font-size:15px}
 </style>
 </head>
 <body>
@@ -244,6 +252,13 @@ a{text-decoration:none;color:inherit}
       <p>Via Kastrup på ~3 h 30. Från ~900 kr t/r i lågsäsong.</p>
       <span class="go">Läs guiden →</span>
     </a>
+  </div>
+  <div class="faq-card">
+    <h2>Vanliga frågor</h2>
+    <details class="faq-item"><summary>Vad är Flygprisjakt?</summary><p>Vi är en svensk flygsöktjänst som jämför priser från hundratals flygbolag och resebyråer i en enda sökning. Våra reseguider hjälper dig välja rätt tid, rätt flygbolag och rätt flygplats.</p></details>
+    <details class="faq-item"><summary>Hur hittar jag billigast flyg?</summary><p>Var flexibel med datum (tisdagar, onsdagar och lördagar är ofta billigast), boka 6–10 veckor i förväg för Europa-resor och jämför alla flygbolag i samma sökning.</p></details>
+    <details class="faq-item"><summary>Är priserna på sidan aktuella?</summary><p>Priserna i våra guider är ungefärliga exempel från lågsäsong (tur och retur). Aktuella priser för dina datum ser du i sökmotorn hos bokningspartnern.</p></details>
+    <details class="faq-item"><summary>Vilken är den bästa tiden att boka?</summary><p>För Europa-resor: 6–10 veckor före avresa. För långflygningar: 8–12 veckor. Lågsäsong (september–april) ger de lägsta priserna.</p></details>
   </div>
   <p class="note">Fler destinationer kommer löpande — vi bygger ut med nya städer varje vecka.</p>
 </div>
